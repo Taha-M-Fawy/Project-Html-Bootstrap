@@ -1,0 +1,95 @@
+.navbar-nav li {
+    padding: 0 10px;
+  }
+  .navbar-nav a {
+      color:  #6A6A6A !important;
+      font-weight: 800;
+  }
+  
+  .navbar-nav {
+      margin-left: auto;
+  }
+  .navbar-brand {
+      text-align: left;
+  }
+  
+  .sss {
+      background-color: #dfdbdb ;
+      border-radius:50px ;
+      margin-left: -50px;
+      margin-top: -40px;
+      margin-bottom: 10px;
+      width: 50%;  
+  }
+  @media (max-width:767px) {
+      .sss{
+          width: 75%;
+      }
+      .sss h1 {
+          margin-left: 70px !important;
+          margin-top: 40px;
+      }
+      #message {
+        padding-bottom: 150px !important;
+      }
+      .input{
+        width: 100% !important;
+      }
+  }
+  .sss h1 {
+      margin-left: 150px;
+      margin-top: 30px;
+      color: #0bd18c82;
+  }
+ 
+  .cont {
+    background-color: #a09a9a;
+    width: 95%;
+    margin: auto;
+    border-radius: 16px;
+    margin-top: 20px;
+   
+
+  }
+  .pra {
+    text-align: left;
+    margin-top: 50px    ;
+    color: #fff;
+  }
+  .input {
+    background-color: #ffffff;
+   
+    width: 400px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left:  auto ;
+    margin-top: 20px;
+}
+
+.input input,
+.input textarea {
+    background-color: #D9D9D9;
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.input button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.form-control {
+    background-color: #D9D9D9;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}

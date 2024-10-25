@@ -1,0 +1,84 @@
+.navbar-nav li {
+    padding: 0 10px;
+  }
+  .navbar-nav a {
+      color:  #6A6A6A !important;
+      font-weight: 800;
+  }
+  
+  .navbar-nav {
+      margin-left: auto;
+  }
+  .navbar-brand {
+      text-align: left;
+  }
+  
+  .sss {
+      background-color: #dfdbdb ;
+      border-radius:50px ;
+      margin-left: -50px;
+      margin-top: -40px;
+      margin-bottom: 15px;
+      width: 50%;  
+  }
+  @media (max-width:767px) {
+      .sss{
+          width: 75%;
+      }
+      .sss h1 {
+          margin-left: 70px !important;
+          margin-top: 40px;
+      }
+  }
+  .sss h1 {
+      margin-left: 150px;
+      margin-top: 30px;
+      color: #0bd18c82;
+  }
+.cont {
+    background-color: #c8c7c7;
+    width: 95%;
+    margin: auto;
+    border-radius: 16px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+.pra {
+    text-align: left;
+    margin-top: 50px;
+    color: #fff;
+}
+.form-control {
+    background-color: #D9D9D9;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+.vertical-line {
+    border-left: 2px solid black; /* سماكة ولون الخط */
+    height: 650px; /* طول الخط */
+    margin-top: 70px;
+}
+
+/* Media Query to change vertical line to horizontal for small screens */
+@media (max-width: 768px) {
+    .vertical-line {
+        border-left: none;
+        border-top: 2px solid black; /* تحويل الخط ليكون أفقيًا */
+        width: 80%; 
+        height: 2px; 
+        margin: 0 auto ;
+        
+    }
+    .aaa{
+        text-align: center;
+    }
+}
+
+.line {
+    border-bottom: 2px solid black;
+    width: 250px;
+    margin-top: 50px;
+  
+}

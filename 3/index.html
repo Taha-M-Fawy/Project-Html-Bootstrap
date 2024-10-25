@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>third Project</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color:  #00A26A82 !important;">
+        <div class="container-fluid">
+            <div class="sss">
+          <a class="navbar-brand " href="#"><h1> Personal Blog</h1></a>
+                
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse me-lg-4" id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-2 mb-lg-0 me-lg-5">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>   
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+    <div class="img  object-fit-contain">
+        <img class="w-100 " src="./img/mongodb.png" alt="" style="height: 350px;">
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-8">
+                    
+                <div class="d-flex mb-5">
+                    <img style="width: 80px; height: 80px; border-radius: 50%;" src="./img/image.png" alt="">
+                    <div class=" ms-5 mt-3">
+                    <p >Taha Mohammed</p>
+                    <p>jan17 2024 min</p>
+                </div>
+                </div>
+                <h1>Building microservices with Dropwizard, MongoDB & Docker</h1>
+                <img class="im" src="./img/ca567c246cccc4e47f1d19530122e4ab.png" style="width: 80%; height: 300px; "  alt="">
+            </div>
+            <div class="col-1 "></div>
+            <div class="col-3">
+                <div class="card p-2 p-md-4 shadow "  style="width: 300px; background-color: #848484; ">
+                    <button class="btn btn-success mb-4 w-100 d-flex align-items-center">
+                        <i class="bi bi-database me-2"></i>
+                     <p> Database</p>  
+                    </button>
+                    <button class="btn btn-light mb-4 w-100 d-flex align-items-center">
+                        <i class="bi bi-universal-access me-4"></i> 
+                       <p> Accessibility</p>
+                    </button>
+                    <button class="btn btn-light w-100 d-flex align-items-center">
+                        <i class="bi bi-speedometer2 me-2"></i> 
+                       <p>Web Performance</p> 
+                    </button>
+                </div>
+                <img class="md" style="width: 250px; height: 150px;  margin-top: 130px; "  src="./img/8749a7eef64aa9e9e8137da099f94a73.jpg"alt="">
+            </div>
+        </div>
+        <div class="mt-4 mb-5 w-100" style="font-size: 18px; ">
+            <p>
+                This NoSQL database oriented to documents (by documents like JSON) combines some of the features<br> from
+                relational databases, easy to use ,<br>
+                Dropwizard making magic. 😎<br>
+                In this tutorial I will create a microservice using Dropwizard, this framework provides all kind of<br>
+                libraries to build a web application. Some of the libraries that include are:  <br><br>
+
+               <b style="font-size: 20px;">Jetty Server</b> : this is an open-source web server, lightweight and easy to embed in any<br> application.<br><br>
+
+               <b style="font-size: 20px;">Jersey</b>: implementation for creating RESTful web services.<br>
+                Jackson: allows you manipulation from JSON objects to POJOs and vice versa.<br><br>
+
+                <b style="font-size: 20px;">Metrics</b>: provides information about the state of HTTP requests, database connections, queues, etc.<br><br>
+
+                <b style="font-size: 20px;">Guava</b> : support with many classes to deal with collections, validations, strings etc.<br><br>
+
+                <b style="font-size: 20px;"> Hibernate Validator</b>: validations as constrains for java objects.<br>
+                JDBI: wraps JDBC and provides a flexible way to manipulate relational databases.<br><br>
+
+                <b style="font-size: 20px;">Liquibase</b>  : perfect to migrations and DDL changes in a database.<br>
+            </p>
+        </div>
+    </div>
+    </div>
+
+    <div class="row m-0 footer-section mt-5" style="background-color:#ccc; padding: 20px;">
+        <div class="col-md-3  mt-2 mt-md-5">
+            <h1 style="color: #00A26A82;">Personal Blog</h1>
+        </div>
+        <div class="col-md-3">
+            <h4>Topics</h4>
+            <p>Database </p>
+            <p>Accessibility</p>
+            <p>Web Performance</p>
+        </div>
+        <div class="col-md-3">
+            <h4>Help</h4>
+            <p>Blog </p>
+        </div>
+        <div class="col-md-3">
+            <h4>About</h4>
+            <p>About Me </p>
+            <p>Contact</p>
+        </div>
+    </div>
+    <div class="text-center " >
+        <p>@copyright 2024</p>
+    </div>
+  
+</body>
+
+</html>]

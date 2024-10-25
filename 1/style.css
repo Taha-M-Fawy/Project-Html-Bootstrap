@@ -1,0 +1,217 @@
+body {
+  width: 100%;
+}
+
+.A {
+  background-color: #F5F5F5;
+}
+
+#B {
+  margin-bottom: 10px;
+}
+
+#C {
+  display: flex;
+  justify-content: center;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 0.25rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+img.rounded-start {
+  border-radius: 10px 0 0 10px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.topics-section {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.topics-section h5 {
+  font-weight: bold;
+}
+
+.topics-section .badge {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.topics-section .badge:hover {
+  background-color: #e2e6ea;
+}
+
+.card {
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 767px) {
+  .zzz{
+    margin-left: 50px !important; 
+  }
+}
+
+.col-md-4 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .col-md-4 img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav a {
+  color: #6A6A6A !important;
+  font-weight: 800;
+}
+
+.navbar-nav {
+  height: 25px;
+}
+
+.navbar-brand {
+  text-align: left;
+}
+
+.sss {
+  background-color: #D9D9D9;
+  border-radius: 50px;
+  margin-left: -46px;
+  margin-top: -30px;
+  padding: 20px 0;
+  margin-bottom: -7px;
+}
+
+.sss h1 {
+  margin-left: 100px;
+  margin-top: 10px;
+  color: #0bd18c82;
+}
+
+.icon-frame i {
+  padding: 8px;
+  background-color: #E2E0E0;
+  margin-right: 6px;
+  margin-left: -10px;
+}
+
+.profile-img {
+  max-width: 300px;
+  border: 5px solid #D9D9D9;
+  border-radius: 100px;
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.2);
+  background-color: #00A26A;
+}
+#ma{
+  display: flex;
+   justify-content: end;
+}
+@media (max-width: 767px) {
+  .mt-4 {
+    display: none;
+  }
+  #ma{
+    display: flex;
+    justify-content: center;
+  }
+  .profile-img {
+    max-width: 250px;
+    border: 8px solid rgb(217, 217, 217);
+    border-radius: 130px;
+    box-shadow: 0px 10px 0px 0px rgba(217, 217, 217, 0.2);
+    background-color: #00A26A;
+    margin-bottom: 30px;
+  }
+  #AAA {
+    background-color: #D9D9D93B;
+    margin-left: 90px;
+  }
+  .mo {
+    position: relative !important;
+    width: 130% !important;
+    height: 850px !important;
+    left: -489px !important;
+    top: -217px !important;
+    background: #D9D9D9 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 50% !important;
+    margin-top: -940px !important;
+    margin-left: 392px !important;
+    margin-bottom: 26px !important;
+    z-index: 5 !important;
+  }
+  .om{
+    position: absolute;
+    width: 110%;
+    height: 262px;
+    left: -42px;
+    top: 333px;
+    background-color: #D9D9D93B;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 200px;
+    margin-left: 10px;
+    margin-top: -25px;
+
+  }
+}
+
+header {
+  position: relative; /* Ensure header has positioning */
+  z-index: 10; /* Keeps the header on top of .mo */
+}
+
+#sec{
+  position: relative; /* Positioning to allow z-index */
+  z-index: 15; /* Higher z-index to make sure it appears above .mo */
+}
+
+.mo {
+  position: relative;
+  width: 1253px;
+  height: 628px;
+  left: -489px;
+  top: -206px;
+  background: #D9D9D9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 126px;
+  margin-top: -469px;
+  margin-left: 300px;
+  margin-bottom: -170px;
+  z-index: 5; /* Keeps .mo under the information section */ 
+}
+
+#gh{
+  background-color:  #F5F5F5 !important;
+}
